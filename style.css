@@ -1,0 +1,182 @@
+body{
+    background-image: url("images/2.jpg");
+
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f8f8f8;
+    color: #333;
+
+}
+
+
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); 
+}
+
+#one{
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    line-height: 200%;
+    
+}
+.circular--square {
+    border-radius: 20%;
+    border-style:inset;
+    border-width: 10px;
+    border-color:#900C3F ;
+  }
+
+#click{
+    color:black;
+    background-color:coral;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-width: 10px;
+  }
+
+ section tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+ 
+  table {
+    
+    width: 100%;
+    border-radius: 3px;
+    
+  }
+  
+  td, th {
+    border: 0px solid #fff4f4;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .project {
+    margin-bottom: 20px;
+    border: 0px solid #fff; 
+    padding: 10px;
+    line-height: 200%;
+   
+}
+
+.project img {
+    max-width: 50%;
+    height: auto;
+
+}
+.project h3{
+    color: #ae1c54;
+}
+
+.contact
+{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(images/imaged.jpg);
+    background-size: cover;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    position:relative;
+    padding: 20px 0;
+    display: flex;   
+}
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50% ;
+    font-size: 20px;
+}
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #fff;
+    font-weight: bolder;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input, textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
